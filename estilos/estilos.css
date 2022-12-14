@@ -1,0 +1,140 @@
+  @media (max-width: 800px) {
+    div.principal, div.menulateral {
+      flex: 50%;
+    }
+  }
+  .flex-container {
+    height: 900px;
+    display: flex;
+    background-color: rgb(49, 255, 30);
+    background-image: url(https://img.freepik.com/foto-gratis/manzana-habitacion-sucia-pintura-patron_1203-5709.jpg?w=826&t=st=1671005047~exp=1671005647~hmac=ed5fef1eaa187f1ed2d5630da643655ab029af8e1c5f66a603e460bd5491f352)  
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    background-image: url(https://img.freepik.com/foto-gratis/manzana-habitacion-sucia-pintura-patron_1203-5709.jpg?w=826&t=st=1671005047~exp=1671005647~hmac=ed5fef1eaa187f1ed2d5630da643655ab029af8e1c5f66a603e460bd5491f352)
+  }
+  .flex-container > div.prueba {
+ width: 70%;
+ background-image: url(https://img.freepik.com/foto-gratis/manzana-habitacion-sucia-pintura-patron_1203-5709.jpg?w=826&t=st=1671005047~exp=1671005647~hmac=ed5fef1eaa187f1ed2d5630da643655ab029af8e1c5f66a603e460bd5491f352)
+  }
+  .flex-container2 {
+    display: flex;
+    background-color: rgb(4, 241, 190);
+    background-image: url(https://img.freepik.com/foto-gratis/pared-ladrillo-negro-textura-fondo_53876-63572.jpg?w=826&t=st=1671005044~exp=1671005644~hmac=e61b0ec7d40e779e505942703ec1862eab559630b5acae8bc2614e8f29482788);
+  }
+  
+  .flex-container2 > div {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 100px;
+    font-size: 30px;
+  }
+  
+  .flex-container3 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-shadow: 3px 3px 5px rgb(255, 255, 255),
+                 6px 6px 5px rgb(150, 150, 150),
+                 9px 9px 5px rgb(50, 50, 50);
+    font-weight: bold;
+    background-image: url(https://img.freepik.com/foto-gratis/pared-ladrillo-negro-textura-fondo_53876-63572.jpg?w=826&t=st=1671005044~exp=1671005644~hmac=e61b0ec7d40e779e505942703ec1862eab559630b5acae8bc2614e8f29482788);
+  }
+  
+  .flex-container3 > div {
+    background-color: #fa00d9;
+    margin: 5px;
+    padding: 10px;
+    font-size: 300px;
+    text-shadow: 3px 3px 5px #f00,
+               6px 6px 5px #0f0,
+               9px 9px 5px #00f;
+    font-weight: bold;
+  }
+  .flex-container1 {
+    height: 105px;
+    display: flex;
+    background-color: rgb(49, 255, 30);
+    background-image: url(https://img.freepik.com/vector-gratis/textura-tinta-negra-brumosa-pinceladas_125540-1360.jpg?w=996&t=st=1671004536~exp=1671005136~hmac=9338b8dc17c5124385a40d63da107a69f66691a914b42eacf9b4be2a526f39dd)  
+  }
+  
+  .flex-container1 > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    background-image: url(https://img.freepik.com/vector-gratis/textura-tinta-negra-brumosa-pinceladas_125540-1360.jpg?w=996&t=st=1671004536~exp=1671005136~hmac=9338b8dc17c5124385a40d63da107a69f66691a914b42eacf9b4be2a526f39dd);
+  }
+  h1.titulo { 
+    color:#cacaca;
+    background:white;
+    font-family: Arial Black;
+    font-size:250%;
+    font-weight: bold;
+    text-indent:0cm;
+    text-align: left;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    text-decoration:underline;
+    background-image: url(https://img.freepik.com/vector-gratis/textura-tinta-negra-brumosa-pinceladas_125540-1360.jpg?w=996&t=st=1671004536~exp=1671005136~hmac=9338b8dc17c5124385a40d63da107a69f66691a914b42eacf9b4be2a526f39dd)
+  }
+  .flex-containerts {
+    height: 400px;
+    display: flex;
+    background-color: rgb(49, 255, 30);
+    background-image: url(https://img.freepik.com/foto-gratis/llano-fondo-decorativo-gris-textura_1136-349.jpg?w=826&t=st=1671009545~exp=1671010145~hmac=d81875bdec0c2587db522d57f5697fd69d8dcb78c51a263426f5786ccc7aa59e)  
+  }
+  
+  .flex-containerts > div.pufferTS {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    background-image: none;
+  }
+  .flex-containerts > div.shootersTS {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    background-image: url();
+  }
+  .flex-containerts > div.jeansTS {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    background-image: url();
+  }
+  .flex-containernike {
+    height: 300px;
+    display: flex;
+    background-color: rgb(49, 255, 30);
+    background-image: url()  
+  }
+  
+  .flex-containernike > div.chaqueta {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    background-image: url();
+  }
+  .flex-containernike > div.pantalon {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    background-image: url();
+  }
+  .flex-containernike > div.af1 {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    background-image: url();
+  }
