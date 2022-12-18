@@ -7,24 +7,37 @@
     height: 900px;
     display: flex;
     background-color: rgb(49, 255, 30);
-    background-image: url(https://img.freepik.com/foto-gratis/manzana-habitacion-sucia-pintura-patron_1203-5709.jpg?w=826&t=st=1671005047~exp=1671005647~hmac=ed5fef1eaa187f1ed2d5630da643655ab029af8e1c5f66a603e460bd5491f352)  
+    background-image: url(https://img.freepik.com/foto-gratis/manzana-habitacion-sucia-pintura-patron_1203-5709.jpg?w=826&t=st=1671005047~exp=1671005647~hmac=ed5fef1eaa187f1ed2d5630da643655ab029af8e1c5f66a603e460bd5491f352);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
   
   .flex-container > div {
     background-color: #f1f1f1;
-    margin: 10px;
+    margin: 0px;
     padding: 20px;
-    font-size: 30px;
-    background-image: url(https://img.freepik.com/foto-gratis/manzana-habitacion-sucia-pintura-patron_1203-5709.jpg?w=826&t=st=1671005047~exp=1671005647~hmac=ed5fef1eaa187f1ed2d5630da643655ab029af8e1c5f66a603e460bd5491f352)
+    font-size: 20px;
+    background-image: url(https://img.freepik.com/foto-gratis/manzana-habitacion-sucia-pintura-patron_1203-5709.jpg?w=826&t=st=1671005047~exp=1671005647~hmac=ed5fef1eaa187f1ed2d5630da643655ab029af8e1c5f66a603e460bd5491f352);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
   .flex-container > div.prueba {
  width: 70%;
- background-image: url(https://img.freepik.com/foto-gratis/manzana-habitacion-sucia-pintura-patron_1203-5709.jpg?w=826&t=st=1671005047~exp=1671005647~hmac=ed5fef1eaa187f1ed2d5630da643655ab029af8e1c5f66a603e460bd5491f352)
-  }
+ background-image: url(https://img.freepik.com/foto-gratis/manzana-habitacion-sucia-pintura-patron_1203-5709.jpg?w=826&t=st=1671005047~exp=1671005647~hmac=ed5fef1eaa187f1ed2d5630da643655ab029af8e1c5f66a603e460bd5491f352);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;  
+}
   .flex-container2 {
     display: flex;
     background-color: rgb(4, 241, 190);
     background-image: url(https://img.freepik.com/foto-gratis/pared-ladrillo-negro-textura-fondo_53876-63572.jpg?w=826&t=st=1671005044~exp=1671005644~hmac=e61b0ec7d40e779e505942703ec1862eab559630b5acae8bc2614e8f29482788);
+    justify-content: space-around;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   }
   
   .flex-container2 > div {
@@ -44,6 +57,9 @@
                  9px 9px 5px rgb(50, 50, 50);
     font-weight: bold;
     background-image: url(https://img.freepik.com/foto-gratis/pared-ladrillo-negro-textura-fondo_53876-63572.jpg?w=826&t=st=1671005044~exp=1671005644~hmac=e61b0ec7d40e779e505942703ec1862eab559630b5acae8bc2614e8f29482788);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
   
   .flex-container3 > div {
@@ -60,7 +76,10 @@
     height: 105px;
     display: flex;
     background-color: rgb(49, 255, 30);
-    background-image: url(https://img.freepik.com/vector-gratis/textura-tinta-negra-brumosa-pinceladas_125540-1360.jpg?w=996&t=st=1671004536~exp=1671005136~hmac=9338b8dc17c5124385a40d63da107a69f66691a914b42eacf9b4be2a526f39dd)  
+    background-image: url(https://img.freepik.com/vector-gratis/textura-tinta-negra-brumosa-pinceladas_125540-1360.jpg?w=996&t=st=1671004536~exp=1671005136~hmac=9338b8dc17c5124385a40d63da107a69f66691a914b42eacf9b4be2a526f39dd);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
   
   .flex-container1 > div {
@@ -69,6 +88,9 @@
     padding: 20px;
     font-size: 30px;
     background-image: url(https://img.freepik.com/vector-gratis/textura-tinta-negra-brumosa-pinceladas_125540-1360.jpg?w=996&t=st=1671004536~exp=1671005136~hmac=9338b8dc17c5124385a40d63da107a69f66691a914b42eacf9b4be2a526f39dd);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
   h1.titulo { 
     color:#cacaca;
@@ -82,59 +104,249 @@
     text-decoration:underline;
     background-image: url(https://img.freepik.com/vector-gratis/textura-tinta-negra-brumosa-pinceladas_125540-1360.jpg?w=996&t=st=1671004536~exp=1671005136~hmac=9338b8dc17c5124385a40d63da107a69f66691a914b42eacf9b4be2a526f39dd)
   }
+  .dropdownmenu ul, .dropdownmenu li {
+    margin: 0;
+    padding: 0;
+  }
+  .dropdownmenu ul {
+    background: gray;
+    list-style: none;
+    width: 100%;
+  }
+  .dropdownmenu li {
+    float: right;
+    position: relative;
+    width:auto;
+  }
+  .dropdownmenu a {
+    background: #2c2c2c;
+    color: #FFFFFF;
+    display: block;
+    font: bold 12px/20px sans-serif;
+    padding: 10px 25px;
+    text-align: right;
+    text-decoration: none;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+  }
+  .dropdownmenu li:hover a {
+    background: #000000;
+  }
+  #submenu {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+  }
+  li:hover ul#submenu {
+    opacity: 1;
+    top: 40px;	/* adjust this as per top nav padding top & bottom comes */
+    visibility: visible;
+  }
+  #submenu li {
+    float: none;
+    width: 100%;
+  }
+  #submenu a:hover {
+    background: #DF4B05;
+  }
+  #submenu a {
+    background-color:#000000;
+  }
   .flex-containerts {
-    height: 400px;
+    height: 500px;
     display: flex;
-    background-color: rgb(49, 255, 30);
-    background-image: url(https://img.freepik.com/foto-gratis/llano-fondo-decorativo-gris-textura_1136-349.jpg?w=826&t=st=1671009545~exp=1671010145~hmac=d81875bdec0c2587db522d57f5697fd69d8dcb78c51a263426f5786ccc7aa59e)  
+    background-color: rgb(0, 0, 0);
+    background-image: url(https://img.freepik.com/foto-gratis/llano-fondo-decorativo-gris-textura_1136-349.jpg?w=826&t=st=1671009545~exp=1671010145~hmac=d81875bdec0c2587db522d57f5697fd69d8dcb78c51a263426f5786ccc7aa59e);  
+    justify-content: space-around;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   }
   
   .flex-containerts > div.pufferTS {
     background-color: #ffffff;
     margin: 10px;
     padding: 20px;
-    font-size: 30px;
-    background-image: none;
+    font-size: 14px;
   }
   .flex-containerts > div.shootersTS {
     background-color: #ffffff;
     margin: 10px;
     padding: 20px;
-    font-size: 30px;
-    background-image: url();
+    font-size: 14px;
   }
   .flex-containerts > div.jeansTS {
     background-color: #ffffff;
     margin: 10px;
     padding: 20px;
-    font-size: 30px;
-    background-image: url();
+    font-size: 14px;
   }
-  .flex-containernike {
-    height: 300px;
-    display: flex;
-    background-color: rgb(49, 255, 30);
-    background-image: url()  
-  }
-  
-  .flex-containernike > div.chaqueta {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-    background-image: url();
-  }
-  .flex-containernike > div.pantalon {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-    background-image: url();
-  }
-  .flex-containernike > div.af1 {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-    background-image: url();
-  }
+.flex-containernike {
+  height: 500px;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  background-image: url(https://img.freepik.com/foto-gratis/llano-fondo-decorativo-gris-textura_1136-349.jpg?w=826&t=st=1671009545~exp=1671010145~hmac=d81875bdec0c2587db522d57f5697fd69d8dcb78c51a263426f5786ccc7aa59e);  
+  justify-content: space-around;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.flex-containernike > div.chaquetaTF {
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  font-size: 14px;
+}
+.flex-containernike > div.pantalonTF {
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  font-size: 14px;
+}
+.flex-containernike > div.af1 {
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  font-size: 14px;
+}
+.flex-containery2k {
+  height: 500px;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  background-image: url(https://img.freepik.com/foto-gratis/llano-fondo-decorativo-gris-textura_1136-349.jpg?w=826&t=st=1671009545~exp=1671010145~hmac=d81875bdec0c2587db522d57f5697fd69d8dcb78c51a263426f5786ccc7aa59e);  
+  justify-content: space-around;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.flex-containery2k > div.chaquetay2k {
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  font-size: 14px;
+}
+.flex-containery2k > div.vaquerosy2k {
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  font-size: 14px;
+}
+.flex-containery2k > div.bombery2k {
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  font-size: 14px;
+}
+.flex-containermoncler {
+  height: 500px;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  background-image: url(https://img.freepik.com/foto-gratis/llano-fondo-decorativo-gris-textura_1136-349.jpg?w=826&t=st=1671009545~exp=1671010145~hmac=d81875bdec0c2587db522d57f5697fd69d8dcb78c51a263426f5786ccc7aa59e);  
+  justify-content: space-around;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.flex-containermoncler > div.monclervest {
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  font-size: 14px;
+}
+.flex-containermoncler > div.riñoneramoncler {
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  font-size: 14px;
+}
+.flex-containermoncler > div.camisetamoncler {
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  font-size: 14px;
+}
+h2.tituliyo {
+  font-size: 50px;
+    text-shadow: 3px 3px 5px rgb(255, 255, 255),
+                 6px 6px 5px rgb(150, 150, 150),
+                 9px 9px 5px rgb(50, 50, 50);
+    font-weight: bold;
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}

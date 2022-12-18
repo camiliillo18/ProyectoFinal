@@ -1,28 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head <meta charset="UTF-8">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Montserrat Drip </title>
 <link rel="stylesheet" href="estilos/estilos.css"> 
 </head>
 <body>
-<div class="flex-container1"><h1 class="titulo"> Montserrat Drip </h1> </div>
-
+<div class="flex-container1"><h1 class="titulo"> Montserrat Drip </h1> 
+	<nav class="dropdownmenu">
+		<ul>
+		  <li><a href="index.html">Inicio</a></li>
+		  <li><a href="index.html">Sobre Nosotros</a></li>
+		  <li><a href="#">Catálogos</a>
+			<ul id="submenu">
+			  <li><a href="trapstar.html">Trapstar</a></li>
+			  <li><a href="y2k.html">Y2K</a></li>
+			  <li><a href="nike.html">Nike</a></li>
+			  <li><a href="moncler.html">Moncler</a></li>
+			</ul>
+		  </li>
+		  <li><a href="https://www.youtube.com/watch?v=tIB6WmH8HAg">¿Que es Drip?</a></li>
+		</ul>
+	  </nav>
+</div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <form class="example" action="action_page.php">
+     <input type="text" placeholder="Search.." name="search">
+     <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
 <div class="flex-container">
-  <div class="prueba" align="center"> <h2>Sobre Nosotros</h2> 
+  <div class="prueba" align="center"> <h2 class="tituliyo">Sobre Nosotros</h2> 
 	<p>Supongo que tendréis varias preguntas sobre a que nos dedicamos, pues nosotros en esta tienda nos dedicamos a la venta de ropa, 
        tenemos diferentes estilos de ropa, con esto tratamos de captar la atención de la mayoría de personas posibles y que puedan comprar
        en nuestra tienda sin necesidad de estar buscando por diferentes sitios, ya que, tenemos muchísima variedad.
-    </p>
+	</p>
+	<ul align="left">
+		<li>Aconsejamos</li>
+		<li>Informamos</li>
+		<li>Vendemos</li>
+	  </ul>  
 	<iframe width="700" height="450" src="https://www.youtube.com/embed/2Zzu48QKqLM" title="YouTube video player" frameborder="0" 
 	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
-  <div align="center"> <h2> Contacta con nosotros </h2> 
-	<img src="imagenes/instagram-logo.jpg" width="100px" height="100px">
-	<p> MontserratDrip_18 </p>
+  <div align="center"> <h2 class="tituliyo"> Contacta con nosotros </h2> 
+	<ol>
+	<a href="https://www.instagram.com/camiliillo_18/"><img src="imagenes/instagram-logo.jpg" width="100px" height="100px"></a>
+	<li><p> MontserratDrip_18 </p></li>
 	<img src="imagenes/telefono-logo.jpg" width="100px" height="100px">
-	<p> 693 95 98 73 </p>
-	<img src="imagenes/correo-logo.jpg" width="100px" height="100px"> 
-	<p> montserratdrip18@gmail.com </p>
-	
+	<li><p> 693 95 98 73 </p></li>
+	<a href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCHrfSsVHChXSMmgrNdNmwfFdkPJzHBhCklRkFSWwVBXsPxpbrxDmhpTMQTgWPCzkzlCjdtg"><img src="imagenes/correo-logo.jpg" width="100px" height="100px"></a>
+	<li><p> montserratdrip18@gmail.com </p></li>
+	</ol>
 </div>
 </div>
 <div class="flex-container3" align="center"> 
@@ -39,5 +68,50 @@
 	<div> <a href="moncler.html"><img src="imagenes/moncler-logo2.jpg" width="195px" height="160px"> </a>
 	</div>
 </div>
+<div class="container">
+	<form action="action_page.php">
+  
+	  <label for="fname">Nombre</label>
+	  <input type="text" id="fname" name="firstname" placeholder="Tu nombre...">
+  
+	  <label for="lname">Apellidos</label>
+	  <input type="text" id="lname" name="lastname" placeholder="Tus apellidos...">
+  
+	  <label for="country">País</label>
+	  <select id="country" name="pais">
+		<option value="australia">España</option>
+		<option value="canada">Uruguay</option>
+		<option value="usa">Otro...</option>
+	  </select>
+  
+	  <label for="subject">Otro</label>
+	  <textarea id="subject" name="subject" placeholder="Otro pais..." style="height:200px"></textarea>
+  
+	  <input type="submit" value="Enviar">
+  
+	</form>
+</div>
+<style>
+	table, th, td {
+	  border:1px solid black;
+	}
+	</style>
+	<body>
+	
+	<h2>¿Quién lleva la tienda?</h2>
+	
+	<table style="width: 100%">
+	  <tr>
+		<th>Creador principal</th>
+		<th>Creador secundario</th>
+		<th>Inversor</th>
+	  </tr>
+	  <tr align="center">
+		<td>Camilo Dubra</td>
+		<td>Jose Juan Rodriguez</td>
+		<td>Mark Szczęsny</td>
+	  </tr>
+	</table>
+  <iframe align="right" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.859102432213!2d-4.447809984438126!3d36.72594497996411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f70c3d574e37%3A0x67343146876c734b!2sIES%20Pablo%20Picasso!5e0!3m2!1ses!2ses!4v1671126191954!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </body>
 </html>
